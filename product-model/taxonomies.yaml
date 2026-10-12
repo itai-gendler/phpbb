@@ -1,0 +1,19 @@
+{
+  "scenarioKinds": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "description": "Successful established behavior and alternatives."
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "description": "Refusal, invalid input or a retained-value outcome."
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "description": "Conflicts, partial persistence and unavailable dependencies."
+    }
+  ]
+}
