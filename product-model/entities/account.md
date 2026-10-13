@@ -87,7 +87,7 @@ The registered identity whose facts remain the same across the person’s forum 
 - **Email** — The registered contact address used by account processes and governed contact disclosure.
 - **Credential** — The password verifier; never disclosed as a stored value.
 - **Joined at** — When registration created the identity.
-- **Inactivity reason** — The reason for inactivity, including registration, email change and manual inactivity.
+- **Inactivity reason** — The reason for inactivity, including registration, email change, forced reactivation and manual inactivity.
 - **Activation proof** — The kept activation key used to authenticate the activation link; never disclosed as a verifier.
 - **Activation expiry** — The kept activation timing value; the activation handler does not enforce equivalent reset-token expiry.
 - **Reset proof** — The current password-reset verifier; replacement and expiration cleanup maintain it.

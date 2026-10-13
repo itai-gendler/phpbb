@@ -23,7 +23,16 @@
   ],
   "permits": [
     {
-      "configuredBy": "board-settings"
+      "actors": [
+        "user",
+        "administrator"
+      ],
+      "when": [
+        {
+          "fact": "Inactivity reason",
+          "is-not": "Manual"
+        }
+      ]
     }
   ],
   "references": [
@@ -36,6 +45,6 @@
 }
 ---
 
-# Account activation requires the configured operation authority
+# A manually deactivated account is not activated through its link
 
-Configured activation route and eligible inactivity reason; administrator activation requires effective `a_user`. Supplied key matching is authentication.
+Activation through the link needs the account's matching activation key and never applies to an account made Inactive manually. Supplied key matching is authentication. Who else may activate is set by the board's Registration mode.
